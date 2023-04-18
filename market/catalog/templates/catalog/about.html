@@ -1,0 +1,109 @@
+{% extends 'catalog/base.html' %}
+{% load static %}
+
+{% block title %}
+<title>О нас</title>
+{% endblock %}
+
+{% block content %}
+
+	<!-- Intro Right -->
+
+	<div class="intro_right intro">
+		<div class="container">
+			<div class="row row-xl-eq-height">
+				
+				<!-- Intro Image -->
+				<div class="col-xl-6">
+					<div class="intro_image">
+						<div class="background_image intro_image_background"><img src="{% static 'images/intro_1.jpg' %}" alt=""></div>
+					</div>
+				</div>
+
+				<!-- Intro Right Content -->
+				<div class="col-xl-6 intro_right_col">
+					<div class="intro_right_content">
+						<div class="section_title_container text-center">
+							<div class="section_title"><h1>Beach Hotel - More than a stay</h1></div>
+							<div class="section_text">In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum eros hendrerit, id lobortis leo volutpat. Maecenas sollicitudin est in libero pretium interdum.</div>
+						</div>
+						<div class="intro_right_text text-center">In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum eros hendrerit, id lobortis leo volutpat. Maecenas sollicitudin est in libero pretium interdum. Nullam volutpat dui sem, ac congue purus hendrerit, id lobortis leo luctus nec. In vitae nisi aliquam, scelerisque. Vivamus rutrum dui fermentum eros hendrerit, id lobortis leo volutpat. Maecenas sollicitudin est in libero pretium interdum. Nullam volutpat dui sem, ac congue purus hendrerit, id lobortis leo luctus nec. </div>
+						<div class="sig text-center">
+							<img src="images/sig.png" alt="">
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Intro Left -->
+
+	<div class="intro_left intro">
+		<div class="container">
+			<div class="row">
+				
+				<!-- Intro Left Content -->
+				<div class="col-xl-6 order-xl-1 order-2">
+					<div class="intro_left_content">
+						<div class="section_title_container text-center">
+							<div class="section_title"><h1>Amazing Facilities</h1></div>
+							<div class="section_text">In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum eros hendrerit, id lobortis leo volutpat. Maecenas sollicitudin est in libero pretium interdum.</div>
+						</div>
+						<div class="row icon_box_row">
+
+							<!-- Icon Box -->
+							<div class="col-lg-4">
+								<div class="icon_box text-center">
+									<div class="icon_box_icon"><img src="{% static 'images/icon_1.svg' %}"
+																	alt="https://www.flaticon.com/authors/monkik"></div>
+									<div class="icon_box_title"><h3>Beautiful Rooms</h3></div>
+									<div class="icon_box_text">
+										<p>In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum.</p>
+									</div>
+								</div>
+							</div>
+
+							<!-- Icon Box -->
+							<div class="col-lg-4">
+								<div class="icon_box text-center">
+									<div class="icon_box_icon"><img src="{% static 'images/icon_2.svg' %}"
+																	alt="https://www.flaticon.com/authors/monkik"></div>
+									<div class="icon_box_title"><h3>Swimming Pool</h3></div>
+									<div class="icon_box_text">
+										<p>Maecenas sollicitudin est in libero pretium interdum.In vitae nisi.</p>
+									</div>
+								</div>
+							</div>
+
+							<!-- Icon Box -->
+							<div class="col-lg-4">
+								<div class="icon_box text-center">
+									<div class="icon_box_icon"><img
+											src="{% static 'images/icon_3.svg' %}"
+																	alt="https://www.flaticon.com/authors/monkik"></div>
+									<div class="icon_box_title"><h3>Luxury Resort</h3></div>
+									<div class="icon_box_text">
+										<p>In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum.</p>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<!-- Intro Image -->
+				<div class="col-xl-6 order-xl-2 order-1">
+					<div class="intro_image">
+						<div class="background_image intro_image_background"><img src="{% static 'images/intro_2.jpg' %}" alt=""></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+{% endblock %}

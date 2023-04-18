@@ -1,0 +1,298 @@
+{% extends 'catalog/base.html' %}
+{% load static %}
+<body>
+
+{% block content %}
+	<div class="home">
+		<div class="parallax_background parallax-window" data-parallax="scroll"
+			 data-image-src="{% static 'images/index.jpg' %}" data-speed="0.8"></div>
+		<div class="home_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="home_content text-center">
+							<div class="home_title"><h1>Красоты Кавказа</h1></div>
+							<div class="home_text">Погрузитесь в мир исторических ценностей кавказского народа <br>
+								Отправьтесь в удивительное приключение по горным хребтам <br> Испытайте незабываемое
+								удовольствие от национальной кухни
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Search Box -->
+
+	<div class="search_box">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="search_box_container d-flex flex-row align-items-center justify-content-start">
+						<div class="search_form_container">
+							<form action="#" id="search_form" class="search_form">
+								<div class="d-flex flex-lg-row flex-column align-items-center justify-content-start">
+									<ul class="search_form_list d-flex flex-row align-items-center justify-content-start flex-wrap">
+										<li class="search_dropdown d-flex flex-row align-items-center justify-content-start">
+											<span>Найти</span>
+											<i class="fa fa-chevron-down ml-auto" aria-hidden="true"></i>
+											<ul>
+												<li>Check in item 1</li>
+												<li>Check in item 2</li>
+												<li>Check in item 3</li>
+												<li>Check in item 4</li>
+												<li>Check in item 5</li>
+											</ul>
+										</li>
+										<li class="search_dropdown d-flex flex-row align-items-center justify-content-start">
+											<span>Check out</span>
+											<i class="fa fa-chevron-down ml-auto" aria-hidden="true"></i>
+											<ul>
+												<li>Check out item 1</li>
+												<li>Check out item 2</li>
+												<li>Check out item 3</li>
+												<li>Check out item 4</li>
+												<li>Check out item 5</li>
+											</ul>
+										</li>
+										<li class="search_dropdown d-flex flex-row align-items-center justify-content-start">
+											<span>Guests</span>
+											<i class="fa fa-chevron-down ml-auto" aria-hidden="true"></i>
+											<ul>
+												<li>1</li>
+												<li>2</li>
+												<li>3</li>
+												<li>4</li>
+												<li>5</li>
+											</ul>
+										</li>
+										<li class="search_dropdown d-flex flex-row align-items-center justify-content-start">
+											<span>Children</span>
+											<i class="fa fa-chevron-down ml-auto" aria-hidden="true"></i>
+											<ul>
+												<li>1</li>
+												<li>2</li>
+												<li>3</li>
+												<li>4</li>
+												<li>5</li>
+											</ul>
+										</li>
+										<li class="search_dropdown d-flex flex-row align-items-center justify-content-start">
+											<span>Rooms</span>
+											<i class="fa fa-chevron-down ml-auto" aria-hidden="true"></i>
+											<ul>
+												<li>1</li>
+												<li>2</li>
+												<li>3</li>
+												<li>4</li>
+												<li>5</li>
+											</ul>
+										</li>
+									</ul>
+									<button class="search_button">подобрать тур</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Intro -->
+
+	<div class="intro">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title_container text-center">
+						<div class="section_title"><h1>Больше, чем просто отдых </h1></div>
+					</div>
+				</div>
+			</div>
+			<div class="row intro_row">
+				
+				<!-- Intro Image -->
+				<div class="col-lg-6">
+					<div
+							class="intro_image"><img src="{% static 'images/intro.jpg' %}"
+													 alt="https://unsplash.com/@papao03"></div>
+				</div>
+
+				<!-- Intro Content -->
+				<div class="col-lg-6 intro_col">
+					<div class="intro_content">
+						<div class="quote"><img src="{% static 'images/quote.png' %}" alt=""></div>
+						<div class="intro_text">
+							<p>Посмотрев множество разных направлений и туров, я решил отправиться на Кавказ. Такого
+								восторга я никогда не испытывал. Я был наедине с природой и самим собой. Я
+								познакомился с удивительными людьми и был в местах, которые покорили мое сердце.
+								Спасибо за мой замечательный отдых.</p>
+						</div>
+						<div class="intro_author d-flex flex-row align-items-center justify-content-start">
+							<div class="author_image"><img src="{% static 'images/author_1.jpg' %}"
+														   alt="https://unsplash.com/@onurozkardes"></div>
+							<div class="intro_author_content">
+								<div class="intro_author_name">Михаил Антипов</div>
+								<div class="intro_author_title">клиент</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Room -->
+
+	<div class="room d-flex flex-lg-row flex-column align-items-start justify-content-start">
+		<div class="room_content">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="room_title">
+							<div class="section_title_container_2">
+								<div class="section_title"><h1>Deluxe Room</h1></div>
+							</div>
+							<div class="room_price">From <span>$190</span>/ night</div>
+						</div>
+						<div class="room_list">
+							<ul>
+								<li class="d-flex flex-row align-items-start justify-content-start">
+									<div><div>Bed:</div></div>
+									<div>Double bed</div>
+								</li>
+								<li class="d-flex flex-row align-items-start justify-content-start">
+									<div><div>Capacity:</div></div>
+									<div>2 adults</div>
+								</li>
+								<li class="d-flex flex-row align-items-start justify-content-start">
+									<div><div>Room size:</div></div>
+									<div>55m²</div>
+								</li>
+								<li class="d-flex flex-row align-items-start justify-content-start">
+									<div><div>View:</div></div>
+									<div>Sea view</div>
+								</li>
+								<li class="d-flex flex-row align-items-start justify-content-start">
+									<div><div>Facilities:</div></div>
+									<div>Iron, TV, Hair dryer</div>
+								</li>
+							</ul>
+						</div>
+						<div class="button room_button trans_200"><a href="#">book now</a></div>
+					</div>
+				</div>
+			</div>		
+		</div>
+		<div class="room_image">
+			<div class="background_image" style="background-image:url(images/room_1.jpg)"></div>
+		</div>
+	</div>
+
+	<!-- Facilities -->
+
+	<div class="facilities">
+		<div class="container">
+			<div class="row icon_box_row">
+
+				<!-- Icon Box -->
+				<div class="col-lg-4">
+					<div class="icon_box text-center">
+						<div class="icon_box_icon"><img src="{% static 'images/icon_1.svg' %}"
+														alt="https://www.flaticon.com/authors/monkik"></div>
+						<div class="icon_box_title"><h2>Красивые отели</h2></div>
+						<div class="icon_box_text">
+							<p>Мы подберем для вас отель, отвечающий вашим требованиям.</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Icon Box -->
+				<div class="col-lg-4">
+					<div class="icon_box text-center">
+						<div class="icon_box_icon"><img src="{% static 'images/icon_2.svg' %}"
+														alt="https://www.flaticon.com/authors/monkik"></div>
+						<div class="icon_box_title"><h2>Комфортный отдых</h2></div>
+						<div class="icon_box_text">
+							<p>Различные развлекательные программы на ваш вкус. Вы любите приключения или отдых у
+								бассейна?</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Icon Box -->
+				<div class="col-lg-4">
+					<div class="icon_box text-center">
+						<div class="icon_box_icon"><img src="{% static 'images/icon_3.svg' %}"
+														alt="https://www.flaticon.com/authors/monkik"></div>
+						<div class="icon_box_title"><h2>Путешествие под ключ</h2></div>
+						<div class="icon_box_text">
+							<p>Мы сделаем за вас абсолютно все, вам нужно просто наслаждаться отдыхом.</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Gallery -->
+
+	<div class="gallery">
+		<div class="gallery_slider_container">
+
+			<!-- Gallery Slider -->
+			<div class="owl-carousel owl-theme gallery_slider">
+				
+				<!-- Slide -->
+				<div class="owl-item gallery_item">
+					<a class="colorbox" href="{% static 'images/gallery_1.jpg' %}">
+						<div class="background_image"
+							 style="background-image:url(images/gallery_1.jpg)"></div>
+					</a>
+					<div class="gallery_overlay trans_200 d-flex flex-column align-items-center justify-content-center"><div>+</div></div>
+				</div>
+
+				<!-- Slide -->
+				<div class="owl-item gallery_item">
+					<a class="colorbox" href="{% static 'images/gallery_2.jpg' %}">
+						<div class="background_image"
+							 style="background-image:url(images/gallery_2.jpg)"></div>
+					</a>
+					<div class="gallery_overlay trans_200 d-flex flex-column align-items-center justify-content-center"><div>+</div></div>
+				</div>
+
+				<!-- Slide -->
+				<div class="owl-item gallery_item">
+					<a class="colorbox" href="{% static 'images/gallery_3.jpg' %}">
+						<div class="background_image"
+							 style="background-image:url(images/gallery_3.jpg)"></div>
+					</a>
+					<div class="gallery_overlay trans_200 d-flex flex-column align-items-center justify-content-center"><div>+</div></div>
+				</div>
+
+				<!-- Slide -->
+				<div class="owl-item gallery_item">
+					<a class="colorbox" href="{% static 'images/gallery_4.jpg' %}">
+						<div class="background_image"
+							 style="background-image:url(images/gallery_4.jpg)"></div>
+					</a>
+					<div class="gallery_overlay trans_200 d-flex flex-column align-items-center justify-content-center"><div>+</div></div>
+				</div>
+
+				<!-- Slide -->
+				<div class="owl-item gallery_item">
+					<a class="colorbox" href="{% static 'images/gallery_5.jpg' %}">
+						<div class="background_image" style="background-image:url(images/gallery_5.jpg)"></div>
+					</a>
+					<div class="gallery_overlay trans_200 d-flex flex-column align-items-center justify-content-center"><div>+</div></div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+{% endblock %}
+</body>
